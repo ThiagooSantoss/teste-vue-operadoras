@@ -45,13 +45,13 @@
       }
     },
    "rules": {
-  "vue/max-attributes-per-line": ["warn", {
+  "vue/max-attributes-per-line": "off", 
     "singleline": 3,
     "multiline": {
       "max": 1,
       "allowFirstLine": false
     }
-  }],
+  },
   "vue/html-indent": ["warn", 2, {
     "attribute": 1,
     "baseIndent": 1,
@@ -67,8 +67,8 @@
       "defineEmits": "readonly",
       "defineExpose": "readonly",
       "withDefaults": "readonly"
-    }
-  },
+    },
+  
   "browserslist": [
     "> 1%",
     "last 2 versions",
